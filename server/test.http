@@ -1,0 +1,15 @@
+### test post hello
+POST http://localhost:8080/api/user/insert
+
+hello post somebody
+
+### test post addUser v2
+POST http://localhost:8080/api/user/find
+Content-Type: application/json
+
+{"uId":"dnjswo105","password":"1234"}
+
+### test post hello
+GET http://localhost:8080/api/product/
+
+hello post somebody
